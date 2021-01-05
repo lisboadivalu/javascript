@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo">Posso usar o script no body tambem</p>
+    <button type="button" onclick="myFunction()">Clique Aqui</button>
+    <script>
+        function myFunction(){
+            document.getElementById('demo').innerHTML="adicionando o script no body, `e sempre bom eu por o script por ultimo no codigo. que assim a pagina pode carregar todos os seus arquivos e em seguida carregar o codigo do javascript"
+        }
+    </script>
+</body>
+</html>
