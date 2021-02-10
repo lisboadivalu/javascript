@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Javascript Statement</h2>
+
+        <p>podemos mostrar mensagens pegando apenas o id de algo na pagina</p>
+        <p id="m1"></p>
+
+        <p>ou posso usar por meio de uma funcao num button qualquer</p>
+        <button type="button" onclick="mensagem()">Experimente</button>
+        <p id="m2"></p>
+
+        <h3>Variaveis</h3>
+        
+        <p>para declararmos variaveis, podemos fazer da seguinte maneira:</p>
+        <p>var ex; </p>
+        <p>ex = ""valor 1</p>
+        <p>var ex = "exemplo";</p>
+        <p>ainda posso declarar varias variaveis dentro de uma so linha de codigo e depois atribuir um valor</p>
+        <p>var a, b, c;</p>
+        <p>a = 1;</p>
+        <p>b = 2;</p>
+        <p>c = a + b;</p>
+        <p>ou:</p>
+        <p>a = 1; b = 2; c = a + b;</p>
+        <p>var x = "5" + 2 + 3; -> se voce utiliza as aspas no primeiro numero da variavel, os outros serao tratados como string tambem</p>
+        <p>var x = 5 + 2 + "3"; -> mas se voce poe as aspas no ultimo numero da variavel, somente o que esta contendo as aspas sera tratado como string</p>
+
+<script>
+    document.getElementById("m1").innerHTML = "Mensagem Exemplo";
+
+    function mensagem(){
+        document.getElementById("m2").innerHTML = "Mensagem Button Exemplo ";
+    };
+
+
+
+</script>
+</body>
+</html>
