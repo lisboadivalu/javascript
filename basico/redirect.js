@@ -10,6 +10,7 @@ function modify() {
     }; 
 }
 
+
 var x = 0;
 
 while(x < 10) {
@@ -31,18 +32,18 @@ var y = 0;
 switch(y) {
     
     case 0:
-        alert("O Y vale 0!")
-        break
+        alert("O Y vale 0!");
+        break;
     
     case 1:
-        alert("O Y vale 1!")
-        break
+        alert("O Y vale 1!");
+        break;
 
     case 2:
-        alert("O Y vale 2!")
-        break
+        alert("O Y vale 2!");
+        break;
         
     case 3:
-        alert("O Y vale 3!")
-        break    
+        alert("O Y vale 3!");
+        break;   
 }
